@@ -9,7 +9,8 @@ export const Signup = () => {
     cpassword: "",
   });
   const navigate = useNavigate();
-  const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  // const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  const host="https://i-notebook-sepia.vercel.app"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
