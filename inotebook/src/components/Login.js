@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Login = () => {
-  const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  // const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  const host="https://i-notebook-sepia.vercel.app";
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   const [showPassword, setShowPassword] = useState(false);
 
