@@ -20,7 +20,8 @@ const NoteState = (props) => {
   //     },1000);
   //   };
 
-  const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  // const host = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}`;
+  const host="https://i-notebook-sepia.vercel.app";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
